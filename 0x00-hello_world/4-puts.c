@@ -6,8 +6,9 @@
  * written by Bayomss on 9th Dec, 2022 by 00:05
  */
 
-int main (void){
-/*I created a variable name fourthTask with the value of the required text*/
+int main(void)
+{
 char fourthTask[] = "\"Programming is like building a multilingual puzzle";
 puts(fourthTask);
-return 0;}
+return (0);
+}
