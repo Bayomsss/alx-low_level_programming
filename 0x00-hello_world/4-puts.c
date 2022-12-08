@@ -8,12 +8,12 @@
 
 int main (void)
 {
-  /*I created a variable name fourthTask with the value of the required text*/
+/*I created a variable name fourthTask with the value of the required text*/
 
-  char fourthTask[] = "\"Programming is like building a multilingual puzzle";
+char fourthTask[] = "\"Programming is like building a multilingual puzzle";
 
-  puts(fourthTask);
+puts(fourthTask);
 
-  return 0;
+return 0;
   
 }
