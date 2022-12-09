@@ -9,7 +9,7 @@ int main(void)
 {
 char fifthTask[] = "with proper grammar, but the outcome is a piece of art,";
 
-printf("character = %s", fifthTask);
-  
+printf("%s", fifthTask);
+
 return (0);
 }
