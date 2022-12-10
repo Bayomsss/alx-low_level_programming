@@ -18,6 +18,9 @@ int n, lastDigit;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 
+/* this is a modulo operator to help determine the reminder
+ * i.e. the last digit
+ */
 lastDigit = n % 10;
 
 /* here if lastDigit is > than 5 */
