@@ -12,13 +12,16 @@
 int main(void)
 {
 /* i have assigned a new integer lastDigit to display the last number of n*/
-int n;
-int lastDigit = 0;
+
+int n, lastDigit;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 
+lastDigit = n % 10;
+
 /* here if lastDigit is > than 5 */
+
 if (lastDigit > 5)
 printf("Last digit of %d is %d and is greater than 5\n", n, lastDigit);
 
