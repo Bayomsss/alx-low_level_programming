@@ -1,0 +1,17 @@
+# this is a shebang that indicates this is a script that uses bash shell
+#!bin/bash
+
+# created by Bayomsss Dec 11, 07:43
+# thanks for using and this is my github https://github.com/Bayomsss
+
+# adds a change in the working directory to the staging area
+git add .
+
+# this line takes input from the user
+read -p "Enter your commit message: " commit
+
+# this line helps saves files in the staging area to the local repository
+git commit -m "$commit"
+
+# this line sends your changes to the remote repository
+git push
