@@ -6,10 +6,12 @@
  * Bayomsss 10 Dec at 07:31 am
  * Return: Always 0 (Success)
  */
-char n[]= a-z;
+char n;
 
 int main(void)
 {
-  putchar("%c", n);
+for(n = 'a'; n <= 'z'; n++) {
+putchar(n\n);
+}
 return (0);
 }
