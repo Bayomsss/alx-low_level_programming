@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * main - Entry point
  * this program prints the alphabet in lowercase using the putchar function
  * Bayomsss 10 Dec at 07:31 am
@@ -11,8 +11,9 @@
 int main(void)
 {
 char n;
-for(n = 'a'; n <= 'z'; n++);
+for (n = 'a'; n <= 'z'; n++)
+{
 putchar (n);
-
+}
 return (0);
 }
