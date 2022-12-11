@@ -1,0 +1,19 @@
+# this bash script helps reduce time by automating git add, commit and push.
+#!bin/bash
+
+# created by Bayomsss Dec 11, 07:43
+# thanks for using and this is my github https://github.com/Bayomsss
+# this is free for everyone to use to make their life easier
+# you can share the link to this script with others to enjoy the script
+
+# adds a change in the working directory to the staging area
+git add .
+
+# this line takes input from the user
+read -p "Enter your commit message: " commit
+
+# this line helps saves files in the staging area to the local repository
+git commit -m "$commit"
+
+# this line sends your changes to the remote repository
+git push

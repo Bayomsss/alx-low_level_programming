@@ -1,0 +1,1 @@
+This is the beginning of our C Programming course part of the ALX course.
