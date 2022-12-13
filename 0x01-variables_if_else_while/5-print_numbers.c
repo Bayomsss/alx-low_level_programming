@@ -13,7 +13,9 @@ int singleDigit;
 
 for (singleDigit = 0; singleDigit < 10; singleDigit++)
 
-printf("%d\n", singleDigit);
+printf("%d", singleDigit);
+
+printf("\n");
 
 return (0);
 }
