@@ -11,11 +11,11 @@ int main(void)
 
 int singleDigit;
 
-for (singleDigit = 0; singleDigit < 10; singleDigit++)
+for (singleDigit = '0'; singleDigit <= '9'; singleDigit++)
 
 putchar(singleDigit);
 
-putchar("\n");
+putchar('\n');
 
 return (0);
 }
