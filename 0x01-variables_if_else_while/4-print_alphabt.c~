@@ -1,0 +1,37 @@
+#include <stdio.h>
+
+
+void RemoveCharsFromString(char * p, const char * pCharsToRemove)
+{
+    int Remove[256] = { 0 };
+    if (NULL == p || NULL == pCharsToRemove)
+        return;
+        
+    while (*pCharsToRemove++)
+    {
+        Remove[*pCharsToRemove++] = 1;
+    }
+    
+    char * pDest = p;
+    
+    while (*p)
+    {
+        if (!Remove[*p])
+            *pDest++ = *p;
+        p++;
+    }
+    
+    *pDest = '\0';
+    
+    int main ()
+    {
+        char str[] = "this is a test you know";
+        const char *pRemove = "qe";
+        
+        RemoveCharsFromString(str, pRemove);
+        
+        printf("%s = %s\n", pRemove, str);
+        
+        return (0);
+    }
+}
