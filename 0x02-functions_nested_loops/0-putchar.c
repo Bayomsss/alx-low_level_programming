@@ -8,8 +8,9 @@
 
 int main(void)
 {
-char *s="_putchar\n";
-while (*s) putchar(*s++);
+char *s = "_putchar\n";
+while (*s)
+putchar(*s++);
 
 return (0);
 }
