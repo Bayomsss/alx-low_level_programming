@@ -10,7 +10,7 @@
 int _islower(int c)
 {
 
-char d[] = "abcdefghijklmnopqrstuvwxyz"
+char d[] = "abcdefghijklmnopqrstuvwxyz";
 
 if (islower(d))
 {
