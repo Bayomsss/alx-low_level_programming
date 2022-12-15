@@ -8,8 +8,8 @@
 
 void print_alphabet(void)
 {
-char i;
-print_alphabet(i);
-putchar(i);
+char n;
+print_alphabet(n);
+putchar(n);
 return (0);
 }
