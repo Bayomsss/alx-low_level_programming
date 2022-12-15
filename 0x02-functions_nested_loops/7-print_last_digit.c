@@ -7,10 +7,10 @@
  * Return: value of last digit
  */
 
-int print_last_digit(int n, int l)
+int print_last_digit(int)
 {
 
 l = n % 10;
-return (n);
+return (l);
 }
 
