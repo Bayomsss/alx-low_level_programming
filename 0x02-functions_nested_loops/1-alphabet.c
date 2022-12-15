@@ -6,10 +6,8 @@
  * Return: Always 0.
  */
 
-void print_alphabet(void)
+int main(void)
 {
-char n;
 print_alphabet(n);
-putchar(n);
 return (0);
 }
