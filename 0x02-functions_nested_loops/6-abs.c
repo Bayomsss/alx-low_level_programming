@@ -4,11 +4,15 @@
 
 /**
  * _abs - computes absolute value of integer
+ * @n: integer in question
  * 07:37am 15th Dec by Bayomsss
  * Return: Always 0
  */
 
-int _abs(int)
+int _abs(int n)
 {
-int r;
+if (n >= 0)
+return (n);
+else
+return (-n);
 }
