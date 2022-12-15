@@ -8,8 +8,5 @@
 
 int _islower(int c)
 [
-((c = 'a' && c <= 'z')
-return (1);
-else
-return (0);
+((c >= 'a' && c >= 'z'))
 ]
