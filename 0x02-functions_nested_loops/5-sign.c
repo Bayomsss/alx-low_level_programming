@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * print_sign - Entry point
  * 06:29am 15th Dec by Bayomss
