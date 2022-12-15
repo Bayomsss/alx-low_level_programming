@@ -1,4 +1,4 @@
-int print_alphabet(char i)
+char print_alphabet()
 {
 for (i = 'a'; i <= 'z'; i++);
 }
