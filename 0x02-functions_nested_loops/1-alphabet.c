@@ -8,7 +8,7 @@
 
 void print_alphabet(void)
 {
-int i;
+char i;
 print_alphabet(i);
 putchar(i);
 return (0);
