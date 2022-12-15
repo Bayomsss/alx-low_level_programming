@@ -10,6 +10,8 @@
 int _islower(int c)
 {
 
+char c[] = "abcdefghijklmnopqrstuvwxyz"
+
 if (islower(c))
 {
 _putchar (1);
