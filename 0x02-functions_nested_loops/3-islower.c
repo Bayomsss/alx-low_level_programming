@@ -4,10 +4,10 @@
 /**
  * _islower - checks for lower case letter
  * 04:07am 15th Dec by Bayomsss
- * Return: c returns 0 or 1 depending on condition
+ * Return: c 0 or 1 depending on condition
  */
 
 int _islower(int c)
 {
-return ((c = 'a' && c <= 'z') || (c = 'A' && c <= 'Z'));
+return ((c <= 'a' && c <= 'z') || (c <= 'A' && c <= 'Z'));
 }
