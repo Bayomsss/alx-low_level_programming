@@ -10,7 +10,7 @@
 int _islower(int c)
 {
 
-if (islower(c))
+if (islower(c = 'a' && c <= 'z'))
 {
 _putchar (1);
 }
