@@ -10,7 +10,5 @@
 
 int _abs(int)
 {
-int x;
-int abs (x);
-
+int r;
 }
