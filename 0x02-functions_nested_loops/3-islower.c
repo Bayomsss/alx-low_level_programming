@@ -2,7 +2,7 @@
 #include <ctype.h>
 
 /**
- * _islower - c
+ * c - _islower
  * 04:07am 15th Dec by Bayomsss
  * Return: Always 0.
  */
