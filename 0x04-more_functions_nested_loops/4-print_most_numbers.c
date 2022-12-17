@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_numbers - Entry point
+ * print_most_numbers - Entry point
  * created by Bayomsss, 17th Dec, 2022 at 05:42am
  * Return: Always 0.
  */
@@ -16,6 +16,4 @@ continue;
 _putchar(i);
 }
 _putchar('\n');
-
-return (0);
 }
