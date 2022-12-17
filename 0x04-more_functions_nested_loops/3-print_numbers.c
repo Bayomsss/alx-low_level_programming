@@ -1,0 +1,17 @@
+#include "main.h"
+
+/**
+ * print_numbers - Entry point
+ * created by Bayomsss, 17th Dec, 2022 at 05:23am
+ * Return: Always 0.
+ */
+
+void print_numbers(void)
+{
+int i;
+for (i = '0'; i <= '9'; i++)
+{
+_putchar(i);
+}
+_putchar('\n');
+}
