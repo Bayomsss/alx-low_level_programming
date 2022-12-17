@@ -2,10 +2,11 @@
 #include "main.h"
 
 /**
- * mul - Entry point
+ * mul - function that multiplies two integers
  * 05am 17th Dec by Bayomsss
- * @c: argument
  * int: data type
+ * @a: integer 1
+ * @b: integer 2
  * Return: 0 and 1 success
  */
 
