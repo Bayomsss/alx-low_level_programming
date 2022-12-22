@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * void swap_int - swaps values of two integers
+ * swap_int - swaps values of two integers
  * by Bayomsss
  * @a: integer
  * @b: integer
